@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Mileast, Sans-serif";
+    src: url("fonts/Mileast.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Mileast, Sans-serif";
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+}
+
+#header {
+    font-size: 28px;
+    color: #97dffc;
+    text-shadow: 0px 0px 20px #000000;
+    background-image: url("images/durgam-cheruvu.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 130px;
+}
+
+#gradient {
+    background: linear-gradient(#fefae0, #caf0f8);
+    padding: 20px;
+}
+
+#sub-header {
+    font-size: 24px;
+    color: #283618;
+    font-weight: bold;
+    margin: 60px;
+}
+
+.place-image {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #000000;
+}
+
+#place1, #place2, #place3 {
+    width: 350px;
+}
+
+#place1:hover, #place2:hover, #place3:hover {
+    transform: scale(1.1);
+}
+
+#places-to-visit {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Mileast, Sans-serif";
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 25.0px;
+}
+
+#guide-card {
+    display: flex;
+    margin: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ffc8dd, #cdb4db);
+    border-bottom: 5px solid purple;
+    border-radius: 5px;
+    width: 630px;
+    padding: 30px 20px;
+}
+
+#guide-image {
+    width: 240px;
+    height: 240px;
+}
+
+#guide-info {
+    width: 360px;
+    font-size: 16px;
+    align-self: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+#guide-card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px purple;
+}
